@@ -39,6 +39,30 @@ public class Grafo {
         }
     }
 
+    private class Aresta{
+        float tempo, distancia;
+        
+        public Aresta(float tempo, float distancia){
+            this.tempo = tempo;
+            this.distancia = distancia;
+        }
 
+        public float getTempo() {
+            return tempo;
+        }
+
+        public void setTempo(float tempo) {
+            this.tempo = tempo;
+        }
+
+        public float getDistancia() {
+            return distancia;
+        }
+
+        public void setDistancia(float distancia) {
+            this.distancia = distancia;
+        } 
+    }
+    
     
 }
